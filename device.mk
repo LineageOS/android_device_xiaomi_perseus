@@ -98,3 +98,7 @@ PRODUCT_PACKAGES += \
 # Slider settings
 PRODUCT_PACKAGES += \
     DeviceSettings
+
+# WiFi
+PRODUCT_PACKAGES += \
+    TargetWifiOverlay
