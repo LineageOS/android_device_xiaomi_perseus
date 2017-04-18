@@ -5,7 +5,7 @@
 #
 
 # Inherit from sdm845-common
--include device/xiaomi/sdm845-common/BoardConfigCommon.mk
+include device/xiaomi/sdm845-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/perseus
 
@@ -38,4 +38,4 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 TARGET_USES_NQ_NFC := true
 
 # Inherit from the proprietary version
--include vendor/xiaomi/perseus/BoardConfigVendor.mk
+include vendor/xiaomi/perseus/BoardConfigVendor.mk
