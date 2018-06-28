@@ -33,6 +33,10 @@ DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 # NFC
 TARGET_USES_NQ_NFC := true
 
+# Verified Boot
+BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/perseus/BoardConfigVendor.mk
 
