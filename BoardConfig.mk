@@ -22,5 +22,8 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+# NFC
+TARGET_USES_NQ_NFC := true
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/perseus/BoardConfigVendor.mk
