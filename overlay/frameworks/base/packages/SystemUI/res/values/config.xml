@@ -20,7 +20,13 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
-    <!-- Doze: check proximity sensor before pulsing? -->
-    <bool name="doze_proximity_check_before_pulse">false</bool>
+    <!-- Doze: Table that translates sensor values from the doze_brightness_sensor_type sensor
+               to brightness values; -1 means keeping the current brightness. -->
+    <integer-array name="config_doze_brightness_sensor_to_brightness">
+        <item>-1</item> <!-- 0: OFF -->
+        <item>1</item> <!-- 1: NIGHT -->
+        <item>3</item> <!-- 2: LOW -->
+        <item>7</item> <!-- 3: HIGH -->
+        <item>7</item> <!-- 4: SUN -->
+    </integer-array>
 </resources>
-
