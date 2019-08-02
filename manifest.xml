@@ -7,7 +7,6 @@
             <name>IGnss</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.1::IGnss/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.keymaster</name>
@@ -17,7 +16,6 @@
             <name>IKeymasterDevice</name>
             <instance>default</instance>
         </interface>
-        <fqname>@4.0::IKeymasterDevice/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.nfc</name>
@@ -27,7 +25,6 @@
             <name>INfc</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.1::INfc/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.secure_element</name>
@@ -37,7 +34,6 @@
             <name>ISecureElement</name>
             <instance>eSE1</instance>
         </interface>
-        <fqname>@1.0::ISecureElement/eSE1</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.biometrics.fingerprint</name>
@@ -47,7 +43,6 @@
             <name>IBiometricsFingerprint</name>
             <instance>default</instance>
         </interface>
-        <fqname>@2.1::IBiometricsFingerprint/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.goodix.hardware.fingerprintextension</name>
@@ -57,7 +52,6 @@
             <name>IGoodixBiometricsFingerprint</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IGoodixBiometricsFingerprint/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.lineage.livedisplay</name>
@@ -80,6 +74,5 @@
             <name>INqNfc</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::INqNfc/default</fqname>
     </hal>
 </manifest>
