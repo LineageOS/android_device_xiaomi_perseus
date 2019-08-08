@@ -12,6 +12,9 @@ DEVICE_PATH := device/xiaomi/perseus
 # Assert
 TARGET_OTA_ASSERT_DEVICE := perseus
 
+# Display
+TARGET_HAS_WIDE_COLOR_DISPLAY := true
+
 # Kernel
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := perseus_defconfig
