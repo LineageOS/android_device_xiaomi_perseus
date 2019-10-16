@@ -36,4 +36,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # NFC
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.nfc_nci=nqx.default \
-    ro.se.type=HCE,UICC
+    ro.se.type=eSE,HCE,UICC
