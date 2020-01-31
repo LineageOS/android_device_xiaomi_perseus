@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2019-2020 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -23,9 +23,6 @@ TARGET_KERNEL_CONFIG := perseus_defconfig
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
-
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/dev/input/event3"
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
