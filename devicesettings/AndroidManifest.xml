@@ -18,4 +18,5 @@
           android:sharedUserId="android.uid.system"
           package="org.lineageos.settings.device">
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INJECT_EVENTS" />
 </manifest>
