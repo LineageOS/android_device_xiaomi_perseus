@@ -37,8 +37,5 @@ TARGET_USES_NQ_NFC := true
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
-# VNDK
-BOARD_VNDK_RUNTIME_DISABLE := false
-
 # Inherit from the proprietary version
 -include vendor/xiaomi/perseus/BoardConfigVendor.mk
