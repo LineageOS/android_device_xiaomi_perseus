@@ -14,10 +14,13 @@
     <ctl name="QUAT_MI2S_RX_Voice Mixer Voip" value="0" />
     <ctl name="ADC3 Volume" value="12" />
     <ctl name="ADC4 Volume" value="12" />
-    <ctl name="Configuration" value="2" />
+    <ctl name="Configuration" value="10" />
     <ctl name="QUAT_MI2S_RX Channels" value="One" />
-    <ctl name="QUAT_MI2S_TX Channels" value="One" />
+    <ctl name="QUAT_MI2S_RX Format" value="S24_LE" />
     <ctl name="QUAT_MI2S_RX SampleRate" value="KHZ_48" />
+    <ctl name="QUAT_MI2S_TX Channels" value="One" />
+    <ctl name="QUAT_MI2S_TX Format" value="S24_LE" />
+    <ctl name="QUAT_MI2S_TX SampleRate" value="KHZ_48" />
     <ctl name="External AMIC2 Mux" value="Dual_ADC" />
     <ctl name="COMP1 Switch" value="0" />
     <ctl name="COMP2 Switch" value="0" />
@@ -401,7 +404,6 @@
         <ctl name="Ultrasound Enable" value="On"/>
         <ctl name="Ultrasound Mode" value="625"/>
     </path>
-
     <path name="ultrasound-output">
         <ctl name="Ultrasound Enable" value="On" />
         <ctl name="SLIM RX7 MUX" value="AIF2_PB" />
@@ -410,7 +412,6 @@
         <ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="EAR SPKR PA Gain" value="G_6_DB" />
     </path>
-
     <path name="ultrasound-input">
         <ctl name="AIF2_CAP Mixer SLIM TX4" value="1" />
         <ctl name="CDC_IF TX4 MUX" value="DEC4" />
@@ -418,9 +419,8 @@
         <ctl name="AMIC MUX4" value="ADC1" />
         <ctl name="ADC1 Volume" value="12" />
     </path>
-
     <path name="speaker">
-        <ctl name="Configuration" value="2" />
+        <ctl name="Configuration" value="10" />
     </path>
 
     <path name="speaker-protected">
@@ -428,10 +428,10 @@
     </path>
 
     <path name="voice-speaker">
-        <ctl name="Configuration" value="1" />
+        <ctl name="Configuration" value="9" />
     </path>
     <path name="voice-speaker-protected">
-        <ctl name="Configuration" value="1" />
+        <ctl name="Configuration" value="9" />
     </path>
 
     <path name="handset">
@@ -456,7 +456,6 @@
         <ctl name="ADC3 Volume" value="5" />
         <ctl name="ADC1 Volume" value="5" />
     </path>
-
     <path name="speaker-mic">
         <ctl name="AIF1_CAP Mixer SLIM TX6" value="1"/>
         <ctl name="SLIM_0_TX Channels" value="One" />
@@ -465,7 +464,6 @@
         <ctl name="AMIC MUX6" value="ADC1" />
         <ctl name="ADC1 Volume" value="5" />
     </path>
-
     <!-- Dual MIC devices -->
     <path name="handset-dmic-endfire">
         <ctl name="AIF1_CAP Mixer SLIM TX7" value="1" />
@@ -494,13 +492,11 @@
 
     <path name="sidetone-headphones">
     </path>
-
     <path name="voice-headphones">
         <path name="headphones" />
         <ctl name="HPHL Volume" value="23" />
         <ctl name="HPHR Volume" value="23" />
     </path>
-
     <path name="camcorder-dmic">
         <path name="handset-dmic-dual-adc" />
     </path>
