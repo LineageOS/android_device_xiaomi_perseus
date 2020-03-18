@@ -27,7 +27,9 @@ vendor/etc/tas2557.ftcfg
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib/libbtnv.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib64/libbtnv.so
 
 # Camera
 vendor/etc/camera/age_gender_bg
@@ -68,11 +70,14 @@ vendor/lib64/libcamxfdengine.so
 vendor/lib64/libcamxfdalgov7.so
 vendor/lib64/libcamxstatscore.so
 vendor/lib64/libHalSuperSensorServer.so
+vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_845.so
+vendor/lib64/libmisegment_front_845.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libnanopb.so
 vendor/lib64/libSuperSensor.so
 vendor/lib64/libSuperSensorCPU.so
+vendor/lib64/libVDClearShot.so
 vendor/lib/camera/components/com.arcsoft.node.capturebokeh.so
 vendor/lib/camera/components/com.arcsoft.node.capturefusion.so
 vendor/lib/camera/components/com.arcsoft.node.frontcapturebokeh.so
@@ -160,14 +165,15 @@ vendor/lib/libcamera_dirty.so
 vendor/lib/libcamera_scene.so
 vendor/lib/libcamxfdalgov7.so
 vendor/lib/libcamxfdengine.so
-vendor/lib/libcamxstaticaecalgo.so
-vendor/lib/libcamxstaticawbalgo.so
 vendor/lib/libcamxstatscore.so
 vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libcom.qti.chinodeutils.so
 vendor/lib/libc++_shared.so
 vendor/lib/libFaceGrade.so
 vendor/lib/libHalSuperSensorServer.so
+vendor/lib/libmegface.so
+vendor/lib/libMegviiFacepp-0.5.2.so
+vendor/lib/libmisegment_front_845.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmpbase.so
@@ -179,10 +185,10 @@ vendor/lib/libswregistrationalgo.so
 vendor/lib/libsymphony-cpu.so
 vendor/lib/libsymphonypower.so
 vendor/lib/libtonemapalgo.so
+vendor/lib/libVDClearShot.so
 vendor/lib/libvidhance.so
 vendor/lib/libXMFD_AgeGender.so
 vendor/lib/lib_denoiser3.so
-vendor/lib/mibokeh_845_opencl.bin
 
 # Camera firmware
 vendor/firmware/bu64748gwz.prog
@@ -208,35 +214,25 @@ vendor/lib64/libgf_hal.so
 vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
 
 # GNSS
-vendor/bin/ignss_1_1
-vendor/bin/gps.cer
 vendor/bin/glgps
+vendor/bin/gps.cer
+vendor/bin/ignss_2_0
 vendor/bin/lhd
-vendor/etc/gpsconfig.xml
 vendor/etc/gps.conf
+vendor/etc/gpsconfig.xml
 vendor/etc/lhd.conf
 vendor/etc/SensorHub.patch
 vendor/lib64/hw/gps.brcm.so
 vendor/lib64/hw/flp.brcm.so
-vendor/lib64/android.hardware.gnss@1.1-impl-xiaomi.so
-vendor/lib64/liblocation_api.so
-vendor/lib64/libloc_core.so
-vendor/lib64/libdiag_jni.so
+vendor/lib64/android.hardware.gnss@2.0-impl-xiaomi.so
 vendor/lib64/libdiagjni.so
-vendor/lib64/libevent_observer.so
-vendor/lib64/libgarden.so
 vendor/lib64/libgps.utils.so
-vendor/lib/liblocation_api.so
-vendor/lib/libloc_core.so
-vendor/lib/libdiag_jni.so
 vendor/lib/libdiagjni.so
-vendor/lib/libevent_observer.so
-vendor/lib/libgarden.so
 vendor/lib/libgps.utils.so
 
 # Hotword enrollment
--priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk;PRESIGNED
--priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
+-product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk;PRESIGNED
+-product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
@@ -265,8 +261,17 @@ vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so
 vendor/lib/hw/android.hardware.secure_element@1.0-impl.so
 
 # Sensors
+vendor/etc/elliptic_sensor.xml
+vendor/lib64/libnotifyaudiohal.so
+vendor/lib64/libultrasound.so
+vendor/lib64/sensors.elliptic.so
+vendor/lib64/sensors.halls.so
 vendor/lib64/sensors.ssc.so
+vendor/lib64/sensors.touch.so
+vendor/lib/libultrasound.so
+vendor/lib/sensors.halls.so
 vendor/lib/sensors.ssc.so
+vendor/lib/sensors.touch.so
 
 # Sensors configs
 vendor/etc/sensors/config/adux1050_0.json
@@ -325,6 +330,3 @@ vendor/etc/thermal-engine-sdm845-sgame.conf
 vendor/etc/thermal-engine-sdm845-tgame.conf
 vendor/etc/thermal-engine-sdm845.conf
 vendor/etc/thermal-engine.conf
-
-# WiFi
-vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so
