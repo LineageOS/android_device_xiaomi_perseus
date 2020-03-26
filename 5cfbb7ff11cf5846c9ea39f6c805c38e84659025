@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e15a794_14936db3",
+        "filename": "audio/sound_trigger_platform_info.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-03-26T23:18:26Z",
+      "side": 1,
+      "message": "If you want to keep CAF history, then here you go: https://github.com/LineageOS/android_device_xiaomi_dipper/commit/38485de59dbfd896ab08b8aa33f6b51191219aa1#diff-a5ca0b5894324f8bb54bb9fffad29d1e.",
+      "range": {
+        "startLine": 35,
+        "startChar": 8,
+        "endLine": 35,
+        "endChar": 46
+      },
+      "revId": "5cfbb7ff11cf5846c9ea39f6c805c38e84659025",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
