@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a830e08e_956243c7",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-03-29T20:01:24Z",
+      "side": 1,
+      "message": "These now live in product.",
+      "range": {
+        "startLine": 234,
+        "startChar": 0,
+        "endLine": 235,
+        "endChar": 95
+      },
+      "revId": "18bf53f526a2a83aeb62fdd8cde5b27a5a8b5ed1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "89cc97f8_84f63e49",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-03-29T20:01:24Z",
+      "side": 1,
+      "message": "This file still exists in the dump that I got and you should keep it. I am pretty sure that perseus ships with these two panels.",
+      "range": {
+        "startLine": 255,
+        "startChar": 0,
+        "endLine": 255,
+        "endChar": 64
+      },
+      "revId": "18bf53f526a2a83aeb62fdd8cde5b27a5a8b5ed1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
