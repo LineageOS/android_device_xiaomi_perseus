@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "d4a787d4_62a36fc1",
+        "filename": "devicesettings/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-04-02T23:08:44Z",
+      "side": 1,
+      "message": "Actually dunno, since you have proguard explicitly disabled. :/",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 34
+      },
+      "revId": "728e57600f6b6f6333fc4516a96bc514ea16af70",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9398e29d_80fa4179",
+        "filename": "devicesettings/src/org/lineageos/settings/device/KeyHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-04-02T23:08:44Z",
+      "side": 1,
+      "message": "This goes to the top of the imports.",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 48
+      },
+      "revId": "728e57600f6b6f6333fc4516a96bc514ea16af70",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "882df42b_c761a52a",
         "filename": "overlay-lineage/lineage-sdk/lineage/res/res/values/config.xml",
         "patchSetId": 1
