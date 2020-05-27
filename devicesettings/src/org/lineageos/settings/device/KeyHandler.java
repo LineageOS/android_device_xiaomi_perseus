@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 The LineageOS Project
+ * Copyright (C) 2018-2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -149,11 +149,10 @@ public class KeyHandler extends CameraManager.AvailabilityCallback
     }
 
     private void doHapticFeedback() {
-        if (mVibrator == null || !mVibrator.hasVibrator()) {
-            return;
+        if (mVibrator != null && mVibrator.hasVibrator()) {
+            mVibrator.vibrate(VibrationEffect.createOneShot(40,
+                    VibrationEffect.DEFAULT_AMPLITUDE));
         }
-
-        mVibrator.vibrate(40);
     }
 
     private void handleSliderDown() {
