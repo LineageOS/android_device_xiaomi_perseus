@@ -1,4 +1,4 @@
-# Device proprietary files - from perseus' MIUI package V11.0.3.0.QEEMIXM global stable version
+# Device proprietary files - from perseus' MIUI package V12.0.4.0.QEECNXM CN stable version
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
