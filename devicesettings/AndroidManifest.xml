@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2018-2020 The LineageOS Project
+     Copyright (C) 2018-2020, 2023 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@
             android:name=".SliderSettingsActivity"
             android:icon="@drawable/cellphone_arrow_down"
             android:label="@string/slider_settings_title"
-            android:theme="@style/Theme.Main"
+            android:theme="@style/Theme.SubSettingsBase"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />

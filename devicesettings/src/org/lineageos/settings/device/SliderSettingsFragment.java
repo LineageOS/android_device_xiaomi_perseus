@@ -39,7 +39,6 @@ public class SliderSettingsFragment extends PreferenceFragment implements
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.slider_settings);
-        getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
         mSliderPreference = (SwitchPreference) findPreference(SLIDER_DISABLE_KEY);
         mSliderPreference.setEnabled(true);
         mSliderPreference.setOnPreferenceChangeListener(this);
