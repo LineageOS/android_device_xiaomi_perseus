@@ -17,9 +17,12 @@
 package org.lineageos.settings.device;
 
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
+import android.view.MenuItem;
 
-public class SliderSettingsActivity extends PreferenceActivity {
+import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
+import com.android.settingslib.collapsingtoolbar.R;
+
+public class SliderSettingsActivity extends CollapsingToolbarBaseActivity {
 
     private static final String TAG_SLIDER = "slider";
 
@@ -27,7 +30,7 @@ public class SliderSettingsActivity extends PreferenceActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        getFragmentManager().beginTransaction().replace(android.R.id.content,
+        getFragmentManager().beginTransaction().replace(R.id.content_frame,
                 new SliderSettingsFragment(), TAG_SLIDER).commit();
     }
 }
