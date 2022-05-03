@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3944c49e_397d391f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2022-05-03T15:10:27Z",
+      "side": 1,
+      "message": "Authorship:\nhttps://github.com/rtx4d/android_device_xiaomi_perseus/commit/0ff3982e931536b5d8b2e26c0356200a0cceafe7",
+      "revId": "e1f43676daeb79814a8ba3df5f40c6b12ae35cfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
