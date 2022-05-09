@@ -50,7 +50,6 @@ vendor/etc/camera/hdr_ui9_params.config
 vendor/etc/camera/lf_facerank_model.bin
 vendor/etc/camera/male_bg.png
 vendor/etc/camera/male_icon.png
-vendor/etc/camera/megviifacepp_0_5_2_model
 vendor/etc/camera/Miui-Light.ttf
 vendor/etc/camera/MIUI_Time.ttf
 vendor/etc/camera/people_gender.dat
@@ -173,8 +172,6 @@ vendor/lib/libcom.qti.chinodeutils.so
 vendor/lib/libc++_shared.so
 vendor/lib/libFaceGrade.so
 vendor/lib/libHalSuperSensorServer.so
-vendor/lib/libmegface.so
-vendor/lib/libMegviiFacepp-0.5.2.so
 vendor/lib/libmisegment_front_845.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmmcamera_faceproc.so
