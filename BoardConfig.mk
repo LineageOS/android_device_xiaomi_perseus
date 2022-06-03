@@ -1,11 +1,11 @@
 #
-# Copyright (C) 2019-2021 The LineageOS Project
+# Copyright (C) 2018-2020 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 # Inherit from sdm845-common
-include device/xiaomi/sdm845-common/BoardConfigCommon.mk
+-include device/xiaomi/sdm845-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/perseus
 
@@ -34,8 +34,5 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
-# NFC
-TARGET_USES_NQ_NFC := true
-
 # Inherit from the proprietary version
-include vendor/xiaomi/perseus/BoardConfigVendor.mk
+-include vendor/xiaomi/dipper/BoardConfigVendor.mk
