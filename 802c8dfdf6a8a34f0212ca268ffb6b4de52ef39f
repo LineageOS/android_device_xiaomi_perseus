@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef9fc37e_43644f20",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-06-03T13:20:12Z",
+      "side": 1,
+      "message": "Please pick the original change (original commit metadata and change-Id). The authorship belongs to infrag and I only did minor changes which I don\u0027t even bother reclaiming any co-authorship, but we should keep all NFC-capable device trees aligned.",
+      "revId": "802c8dfdf6a8a34f0212ca268ffb6b4de52ef39f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
