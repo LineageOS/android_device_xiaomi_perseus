@@ -16,6 +16,24 @@
       "message": "Works fine, now we can use aux module and additional front camera.\nOSS camera hidl on perseus broken, if you use selinux permissive, cameras not available.\nPrebuilt blobs fix this problem.\n\nVendor commit: https://github.com/rtx4d/proprietary_vendor_xiaomi/commit/a389aee05a5a930a7938c8da1589ac026920ab9e",
       "revId": "0127e5d8dac8ebe695976db9985272e2e62fbb5d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a29f1e3_2f2020ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-11-18T17:48:00Z",
+      "side": 1,
+      "message": "\u003e if you use selinux permissive, cameras not available\nNot seeing how this is a problem",
+      "parentUuid": "e476d963_7b32ca56",
+      "revId": "0127e5d8dac8ebe695976db9985272e2e62fbb5d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
