@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9a6b90f_bb1f1166",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30965
+      },
+      "writtenOn": "2022-11-23T22:32:35Z",
+      "side": 1,
+      "message": "I can confirm that without this code, no cameras are available.",
+      "revId": "a2e8db8681b1a5342dd3f75d10101b57bdb1f34a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
