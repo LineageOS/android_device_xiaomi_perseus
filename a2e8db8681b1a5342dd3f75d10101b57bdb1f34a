@@ -16,6 +16,23 @@
       "message": "I can confirm that without this code, no cameras are available.",
       "revId": "a2e8db8681b1a5342dd3f75d10101b57bdb1f34a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "615ba351_e50d7773",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-11-24T15:09:19Z",
+      "side": 1,
+      "message": "I am fine with whatever, as I am not able to test this. Just a sidenote, the camera stack is 32-bit only, so I guess you don\u0027t need the 64-bit libs. Can you give it a try?",
+      "revId": "a2e8db8681b1a5342dd3f75d10101b57bdb1f34a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
