@@ -16,6 +16,24 @@
       "message": "Tested without 64bit blobs, cameras working fine",
       "revId": "dd39dedf7756f19652c41add179ca82a96cc1481",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72f30c25_e2b1b6f7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-11-25T16:50:17Z",
+      "side": 1,
+      "message": "Can you send PR to gitlab?",
+      "parentUuid": "a427dec4_eaa1e017",
+      "revId": "dd39dedf7756f19652c41add179ca82a96cc1481",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
