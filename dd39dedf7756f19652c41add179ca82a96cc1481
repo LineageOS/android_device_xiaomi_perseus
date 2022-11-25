@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a427dec4_eaa1e017",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2022-11-25T16:22:29Z",
+      "side": 1,
+      "message": "Tested without 64bit blobs, cameras working fine",
+      "revId": "dd39dedf7756f19652c41add179ca82a96cc1481",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
