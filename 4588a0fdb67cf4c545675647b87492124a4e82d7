@@ -16,6 +16,24 @@
       "message": "Can you eventually try https://review.lineageos.org/c/LineageOS/android_hardware_lineage_compat/+/344852 + adaptation of https://review.lineageos.org/c/LineageOS/android_device_oneplus_sm8150-common/+/344853 ? See if you get access to all aux cams without using the prebuilt camera HIDL on A13.",
       "revId": "4588a0fdb67cf4c545675647b87492124a4e82d7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e26883f1_c2762e19",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2022-12-10T15:24:38Z",
+      "side": 1,
+      "message": "Not working for perseus.",
+      "parentUuid": "2a3552f5_c52b082b",
+      "revId": "4588a0fdb67cf4c545675647b87492124a4e82d7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
