@@ -2,3 +2,7 @@
 -keep public class * implements com.android.internal.os.DeviceKeyHandler {
     public <init>(android.content.Context);
 }
+
+-keep class org.lineageos.settings.device.* {
+  *;
+}
