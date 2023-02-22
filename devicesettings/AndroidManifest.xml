@@ -17,6 +17,32 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           android:sharedUserId="android.uid.system"
           package="org.lineageos.settings.device">
+
+    <uses-sdk android:minSdkVersion="24"
+              android:targetSdkVersion="24" />
+
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INJECT_EVENTS" />
+    
+    <application
+        android:label="@string/slider_settings_title"
+        android:persistent="true"
+        android:exported="true">
+        <activity
+            android:name=".SliderSettingsActivity"
+            android:icon="@drawable/cellphone_arrow_down"
+            android:label="@string/slider_settings_title"
+            android:theme="@style/Theme.Main">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.gestures" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/slider_settings_summary" />
+        </activity>
+    </application>
 </manifest>
