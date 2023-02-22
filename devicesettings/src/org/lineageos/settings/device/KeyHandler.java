@@ -25,6 +25,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.hardware.camera2.CameraManager;
 import android.os.PowerManager;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
@@ -89,7 +90,8 @@ public class KeyHandler extends CameraManager.AvailabilityCallback
     }
 
     public KeyEvent handleKeyEvent(KeyEvent event) {
-        if (!mPowerManager.isInteractive()) {
+        int slider = SystemProperties.getInt("persist.slider.disable", 0);
+        if (slider == 1 || !mPowerManager.isInteractive()) {
             return event;
         }
 
