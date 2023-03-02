@@ -169,6 +169,8 @@ public class KeyHandler extends CameraManager.AvailabilityCallback
             return;
         }
 
-        openDefaultCameraApp(false /* frontCamera */);
+        Intent intent2 = new Intent(Intent.ACTION_MAIN);
+        intent2.addCategory(Intent.CATEGORY_HOME);
+        startActivityAsUser(intent2, UserHandle.CURRENT_OR_SELF);
     }
 }
