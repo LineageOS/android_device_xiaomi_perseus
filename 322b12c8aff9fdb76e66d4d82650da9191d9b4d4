@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b315d966_f038ce5d",
+        "filename": "devicesettings/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-02T23:20:04Z",
+      "side": 1,
+      "message": "any reason to set the target so low?",
+      "revId": "322b12c8aff9fdb76e66d4d82650da9191d9b4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "751861be_e581ef59",
+        "filename": "devicesettings/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-02T23:20:04Z",
+      "side": 1,
+      "message": "stray spaces",
+      "revId": "322b12c8aff9fdb76e66d4d82650da9191d9b4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7cee7149_265288d3",
+        "filename": "devicesettings/res/values/styles.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-02T23:20:04Z",
+      "side": 1,
+      "message": "copyright block is missing a few newlines",
+      "revId": "322b12c8aff9fdb76e66d4d82650da9191d9b4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f4578108_2c6cb45f",
+        "filename": "devicesettings/src/org/lineageos/settings/device/SliderSettingsFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-02T23:20:04Z",
+      "side": 1,
+      "message": "remove this empty line",
+      "revId": "322b12c8aff9fdb76e66d4d82650da9191d9b4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
