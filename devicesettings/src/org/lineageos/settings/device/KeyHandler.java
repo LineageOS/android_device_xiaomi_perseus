@@ -19,6 +19,7 @@ package org.lineageos.settings.device;
 import static android.view.KeyEvent.ACTION_DOWN;
 
 import android.app.ActivityManager;
+import android.app.Instrumentation;
 import android.app.KeyguardManager;
 import android.content.Context;
 import android.content.Intent;
@@ -169,6 +170,7 @@ public class KeyHandler extends CameraManager.AvailabilityCallback
             return;
         }
 
-        openDefaultCameraApp(false /* frontCamera */);
+        Instrumentation instrumentation = new Instrumentation();
+        instrumentation.sendKeyDownUpSync(KeyEvent.KEYCODE_BACK);
     }
 }
