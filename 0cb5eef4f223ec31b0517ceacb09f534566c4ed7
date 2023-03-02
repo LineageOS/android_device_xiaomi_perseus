@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a615eb8f_fb24ce88",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-02T23:22:09Z",
+      "side": 1,
+      "message": "We don\u0027t do translations like this. what about all the other languages?\nEither use devicesettings (if these strings are common) or add this repo to crowin translation targets",
+      "revId": "0cb5eef4f223ec31b0517ceacb09f534566c4ed7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
