@@ -16,6 +16,24 @@
       "message": "Can you simply squash this with previous?",
       "revId": "d3bd5e74964925d44b1d71699e61adb5e182a126",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f81951f5_e2f2cb05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2023-03-10T13:57:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9c560a71_606c9d80",
+      "revId": "d3bd5e74964925d44b1d71699e61adb5e182a126",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
