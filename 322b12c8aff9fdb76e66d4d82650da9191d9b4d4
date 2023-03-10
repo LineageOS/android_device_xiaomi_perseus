@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7af83250_f42aa189",
+        "filename": "devicesettings/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2023-03-10T13:56:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b315d966_f038ce5d",
+      "revId": "322b12c8aff9fdb76e66d4d82650da9191d9b4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "751861be_e581ef59",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-03-02T23:20:04Z",
       "side": 1,
       "message": "stray spaces",
+      "revId": "322b12c8aff9fdb76e66d4d82650da9191d9b4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8de3b6d5_f7f94029",
+        "filename": "devicesettings/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2023-03-10T13:56:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "751861be_e581ef59",
       "revId": "322b12c8aff9fdb76e66d4d82650da9191d9b4d4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -52,6 +88,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "710e95fd_0f5eaa6c",
+        "filename": "devicesettings/res/values/styles.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2023-03-10T13:56:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7cee7149_265288d3",
+      "revId": "322b12c8aff9fdb76e66d4d82650da9191d9b4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f4578108_2c6cb45f",
@@ -65,6 +119,24 @@
       "writtenOn": "2023-03-02T23:20:04Z",
       "side": 1,
       "message": "remove this empty line",
+      "revId": "322b12c8aff9fdb76e66d4d82650da9191d9b4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce726ddc_c4114c1f",
+        "filename": "devicesettings/src/org/lineageos/settings/device/SliderSettingsFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2023-03-10T13:56:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f4578108_2c6cb45f",
       "revId": "322b12c8aff9fdb76e66d4d82650da9191d9b4d4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
