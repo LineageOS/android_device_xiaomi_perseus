@@ -71,6 +71,29 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "671e64b0_204d0d69",
+        "filename": "devicesettings/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-04-15T09:33:16Z",
+      "side": 1,
+      "message": "Stray spaces",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 4
+      },
+      "revId": "322b12c8aff9fdb76e66d4d82650da9191d9b4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7cee7149_265288d3",
@@ -102,6 +125,29 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "7cee7149_265288d3",
+      "revId": "322b12c8aff9fdb76e66d4d82650da9191d9b4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "599d2a45_3f86dbe9",
+        "filename": "devicesettings/res/values/styles.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-04-15T09:33:16Z",
+      "side": 1,
+      "message": "Malformatted.",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 35
+      },
       "revId": "322b12c8aff9fdb76e66d4d82650da9191d9b4d4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
