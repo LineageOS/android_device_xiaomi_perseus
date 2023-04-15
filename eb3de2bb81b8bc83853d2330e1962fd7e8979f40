@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e31f4e28_a9fbbdec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-04-15T09:38:54Z",
+      "side": 1,
+      "message": "I squashed everything since it didn\u0027t make sense not to at this point in time and also did some cleanups.",
+      "revId": "eb3de2bb81b8bc83853d2330e1962fd7e8979f40",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81149679_a90d49ab",
+        "filename": "devicesettings/src/org/lineageos/settings/device/SliderSettingsFragment.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-04-15T09:38:54Z",
+      "side": 1,
+      "message": "This can also be removed, I think. Please test without it and don\u0027t forget to remove android.view.MenuItem import.",
+      "range": {
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 5
+      },
+      "revId": "eb3de2bb81b8bc83853d2330e1962fd7e8979f40",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
