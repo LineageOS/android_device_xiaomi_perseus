@@ -46,6 +46,30 @@
       },
       "revId": "fde22910715e8b1b1b57b27dd73825de3ab499e7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e043726a_303bce50",
+        "filename": "devicesettings/src/org/lineageos/settings/device/SliderSettingsFragment.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-05-11T13:47:10Z",
+      "side": 1,
+      "message": "I meant:\n\n\u003e  SystemProperties.set(SLIDER_DISABLE_PROPERTY, String.valueOf((Boolean) newValue));",
+      "parentUuid": "166fc155_54269084",
+      "range": {
+        "startLine": 49,
+        "startChar": 16,
+        "endLine": 54,
+        "endChar": 17
+      },
+      "revId": "fde22910715e8b1b1b57b27dd73825de3ab499e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
