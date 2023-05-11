@@ -22,6 +22,30 @@
       },
       "revId": "fde22910715e8b1b1b57b27dd73825de3ab499e7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "166fc155_54269084",
+        "filename": "devicesettings/src/org/lineageos/settings/device/SliderSettingsFragment.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2023-05-11T13:38:14Z",
+      "side": 1,
+      "message": "device/xiaomi/perseus/devicesettings/src/org/lineageos/settings/device/SliderSettingsFragment.java:49: error: method set in class SystemProperties cannot be applied to given types;\n                SystemProperties.set(String.valueOf((Boolean) newValue));\n                                ^\n  required: String,String\n  found: String\n  reason: actual and formal argument lists differ in length\n1 error",
+      "parentUuid": "1b3f180f_bf261852",
+      "range": {
+        "startLine": 49,
+        "startChar": 16,
+        "endLine": 54,
+        "endChar": 17
+      },
+      "revId": "fde22910715e8b1b1b57b27dd73825de3ab499e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
