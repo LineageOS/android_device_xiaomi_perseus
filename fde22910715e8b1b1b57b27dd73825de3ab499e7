@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "cb13e98c_2ca444ac",
+        "filename": "devicesettings/src/org/lineageos/settings/device/SliderSettingsFragment.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 28183
+      },
+      "writtenOn": "2023-08-04T10:11:46Z",
+      "side": 1,
+      "message": "It is recommended not to use Property, which can easily trigger selinux denied.",
+      "revId": "fde22910715e8b1b1b57b27dd73825de3ab499e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1b3f180f_bf261852",
         "filename": "devicesettings/src/org/lineageos/settings/device/SliderSettingsFragment.java",
         "patchSetId": 8
