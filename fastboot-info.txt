@@ -1,0 +1,9 @@
+version 1
+flash boot
+flash dtbo
+flash --apply-vbmeta vbmeta
+flash recovery
+flash system
+flash cust vendor.img
+if-wipe erase cache
+if-wipe erase userdata
