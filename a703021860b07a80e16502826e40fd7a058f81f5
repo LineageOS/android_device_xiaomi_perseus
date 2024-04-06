@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b996614b_d7312ff1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2024-04-06T14:22:14Z",
+      "side": 1,
+      "message": "I think you need to add a header\nBut changes works, 1.7 module in camera app",
+      "revId": "a703021860b07a80e16502826e40fd7a058f81f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
