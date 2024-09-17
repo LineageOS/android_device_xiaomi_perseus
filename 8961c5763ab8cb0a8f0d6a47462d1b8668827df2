@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0feb8082_dd9179d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34129
+      },
+      "writtenOn": "2024-09-17T13:45:05Z",
+      "side": 1,
+      "message": "Make available slider events for third-party apps",
+      "revId": "8961c5763ab8cb0a8f0d6a47462d1b8668827df2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
