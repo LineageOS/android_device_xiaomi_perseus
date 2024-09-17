@@ -101,10 +101,10 @@ public class KeyHandler extends CameraManager.AvailabilityCallback
         switch (scanCode) {
             case KEYCODE_SLIDER_UP:
                 handleSliderUp();
-                break;
+                return event;
             case KEYCODE_SLIDER_DOWN:
                 handleSliderDown();
-                break;
+                return event;
             default:
                 return event;
         }
