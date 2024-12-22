@@ -17,14 +17,4 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),perseus)
 include $(call all-makefiles-under,$(LOCAL_PATH))
-
-include $(CLEAR_VARS)
-
-GPS_CONF_SYMLINK := $(PRODUCT_OUT)/system/etc/gps.conf
-$(GPS_CONF_SYMLINK): $(LOCAL_INSTALLED_MODULE)
-	@mkdir -p $(dir $@)
-	$(hide) ln -sf /vendor/etc/$(notdir $@) $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(GPS_CONF_SYMLINK)
-
 endif
