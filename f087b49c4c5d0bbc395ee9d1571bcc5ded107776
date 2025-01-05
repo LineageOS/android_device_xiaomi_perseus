@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e90bb54_4d1cbf97",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-05T19:04:28Z",
+      "side": 1,
+      "message": "prop is set via com.qti.chi.override.so?",
+      "parentUuid": "4a808895_3e866ed5",
+      "revId": "f087b49c4c5d0bbc395ee9d1571bcc5ded107776",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "219251e5_a5e1acba",
