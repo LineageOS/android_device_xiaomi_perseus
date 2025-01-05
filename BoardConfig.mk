@@ -14,6 +14,9 @@ DEVICE_PATH := device/xiaomi/perseus
 # Assert
 TARGET_OTA_ASSERT_DEVICE := perseus
 
+# Camera
+TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
