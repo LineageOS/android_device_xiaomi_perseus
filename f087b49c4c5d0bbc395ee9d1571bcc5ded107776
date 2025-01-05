@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a808895_3e866ed5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-01-05T19:03:37Z",
+      "side": 1,
+      "message": "No prop set?",
+      "revId": "f087b49c4c5d0bbc395ee9d1571bcc5ded107776",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "219251e5_a5e1acba",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-01-05T19:03:37Z",
+      "side": 1,
+      "message": "before this",
+      "revId": "f087b49c4c5d0bbc395ee9d1571bcc5ded107776",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
