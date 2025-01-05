@@ -16,6 +16,24 @@
       "message": "```suggestion\n            [ \"$2\" \u003d \"\" ] \u0026\u0026 return 0\n            sed -i -e \u0027s/camera.xiaomi.remapid/vendor.camera.remapid/\u0027 \"${2}\"\n```",
       "revId": "b6aa72bc68ffc74491cf1b0018d5a411e5f172aa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0dafb1bf_8d8d8b5f",
+        "filename": "extract-files.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2025-01-05T18:07:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "201026d9_84ce7dd9",
+      "revId": "b6aa72bc68ffc74491cf1b0018d5a411e5f172aa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
