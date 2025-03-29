@@ -4,20 +4,43 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+from extract_utils.fixups_blob import (
+    blob_fixup,
+    blob_fixups_user_type,
+)
+from extract_utils.fixups_lib import (
+    lib_fixups,
+)
 from extract_utils.main import (
     ExtractUtils,
     ExtractUtilsModule,
 )
 
 namespace_imports = [
+    'hardware/qcom-caf/common/libqti-perfd-client',
+    'hardware/qcom-caf/sdm845',
+    'hardware/xiaomi',
+    'vendor/qcom/opensource/display',
     'vendor/xiaomi/sdm845-common'
 ]
+
+blob_fixups: blob_fixups_user_type = {
+    (
+        'vendor/lib/libarcsoft_dualcam_refocus_front.so',
+        'vendor/lib/libarcsoft_dualcam_refocus_rear_t.so',
+        'vendor/lib/libarcsoft_dualcam_refocus_rear_w.so'
+    ): blob_fixup()
+        .clear_symbol_version('remote_handle_close')
+        .clear_symbol_version('remote_handle_invoke')
+        .clear_symbol_version('remote_handle_open'),
+}  # fmt: skip
 
 module = ExtractUtilsModule(
     'perseus',
     'xiaomi',
+    blob_fixups=blob_fixups,
+    lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,
-    check_elf=False,
 )
 
 if __name__ == '__main__':
