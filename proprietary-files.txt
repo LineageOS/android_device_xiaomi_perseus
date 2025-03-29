@@ -11,7 +11,6 @@ vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
-vendor/lib64/libacdbloader.so
 vendor/lib/libacdbloader.so
 
 # ADSP modules
@@ -28,8 +27,6 @@ vendor/etc/tas2557.ftcfg
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib/libbtnv.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
 
@@ -57,28 +54,6 @@ vendor/etc/camera/score_bg.png
 vendor/etc/camera/score_icon.png
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 vendor/etc/camera/watermark_font_2300_3199.dat
-vendor/lib64/libarcsoft_beautyshot.so
-vendor/lib64/libarcsoft_dualcam_refocus_front.so
-vendor/lib64/libarcsoft_dualcam_refocus_rear_t.so
-vendor/lib64/libarcsoft_dualcam_refocus_rear_w.so
-vendor/lib64/libarcsoft_dualcam_refocus.so
-vendor/lib64/libarcsoft_high_dynamic_range.so
-vendor/lib64/libarcsoft_low_light_hdr.so
-vendor/lib64/libarcsoft_portrait_lighting_c.so
-vendor/lib64/libarcsoft_portrait_lighting.so
-vendor/lib64/libarcsoft_supernight.so
-vendor/lib64/libcamxfdengine.so
-vendor/lib64/libcamxfdalgov7.so
-vendor/lib64/libcamxstatscore.so
-vendor/lib64/libHalSuperSensorServer.so
-vendor/lib64/libmialgoengine.so
-vendor/lib64/libmibokeh_845.so
-vendor/lib64/libmisegment_front_845.so
-vendor/lib64/libmpbase.so
-vendor/lib64/libnanopb.so
-vendor/lib64/libSuperSensor.so
-vendor/lib64/libSuperSensorCPU.so
-vendor/lib64/libVDClearShot.so
 vendor/lib/camera/components/com.arcsoft.node.capturebokeh.so
 vendor/lib/camera/components/com.arcsoft.node.capturefusion.so
 vendor/lib/camera/components/com.arcsoft.node.frontcapturebokeh.so
@@ -225,8 +200,6 @@ vendor/lib64/hw/flp.brcm.so
 vendor/lib64/android.hardware.gnss@2.0-impl-xiaomi.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libgps.utils.so
-vendor/lib/libdiagjni.so
-vendor/lib/libgps.utils.so
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
@@ -235,10 +208,6 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
-vendor/lib/libqtikeymaster4.so
 
 # NFC firmware
 vendor/firmware/libpn553_rec.so
@@ -252,7 +221,6 @@ vendor/etc/qdcm_calib_data_visionox_r66455_fhd_cmd_dsi_panel.xml
 vendor/bin/hw/vendor.qti.secure_element@1.0-service
 vendor/etc/init/vendor.qti.secure_element@1.0-service.rc
 vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so
-vendor/lib/hw/android.hardware.secure_element@1.0-impl.so
 
 # Sensors
 vendor/etc/elliptic_sensor.xml
@@ -262,10 +230,6 @@ vendor/lib64/sensors.elliptic.so
 vendor/lib64/sensors.halls.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.so
-vendor/lib/libultrasound.so
-vendor/lib/sensors.halls.so
-vendor/lib/sensors.ssc.so
-vendor/lib/sensors.touch.so
 
 # Sensors configs
 vendor/etc/sensors/config/adux1050_0.json
