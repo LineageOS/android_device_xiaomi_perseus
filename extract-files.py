@@ -37,6 +37,9 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('__aeabi_memcpy')
         .clear_symbol_version('__aeabi_memset')
         .clear_symbol_version('__gnu_Unwind_Find_exidx'),
+    'vendor/lib/hw/com.qti.chi.override.so': blob_fixup()
+        .binary_regex_replace(b'camera.xiaomi.remapid',
+                              b'vendor.camera.remapid'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
