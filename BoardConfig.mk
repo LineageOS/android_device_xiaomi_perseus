@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2024 The LineageOS Project
+# Copyright (C) 2019-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -13,9 +13,6 @@ DEVICE_PATH := device/xiaomi/perseus
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := perseus
-
-# Camera
-TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
 
 # Display
 TARGET_SCREEN_DENSITY := 440
