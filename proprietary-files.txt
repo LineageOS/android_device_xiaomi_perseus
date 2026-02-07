@@ -40,10 +40,12 @@ vendor/lib64/libbtnv.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 
 # Camera
+vendor/etc/camera/CFR_para.bin
+vendor/etc/camera/MIUI_Time.ttf
+vendor/etc/camera/Miui-Light.ttf
 vendor/etc/camera/age_gender_bg
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/camxoverridesettings.txt
-vendor/etc/camera/CFR_para.bin
 vendor/etc/camera/crown_156_128.bin
 vendor/etc/camera/dualcamera.png
 vendor/etc/camera/eyelineblush.cng
@@ -56,19 +58,23 @@ vendor/etc/camera/hdr_ui9_params.config
 vendor/etc/camera/lf_facerank_model.bin
 vendor/etc/camera/male_bg.png
 vendor/etc/camera/male_icon.png
-vendor/etc/camera/Miui-Light.ttf
-vendor/etc/camera/MIUI_Time.ttf
 vendor/etc/camera/people_gender.dat
 vendor/etc/camera/score_bg.png
 vendor/etc/camera/score_icon.png
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 vendor/etc/camera/watermark_font_2300_3199.dat
+vendor/lib/camera/components/etc/GpuKernelRepo.pb
+vendor/lib/camera/components/etc/model_back.dlc
+vendor/lib/camera/components/etc/model_front.dlc
+vendor/lib/camera/components/etc/morpho_lowlight4.0.xml
+vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
+vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml
 vendor/lib/camera/components/com.arcsoft.node.capturebokeh.so
 vendor/lib/camera/components/com.arcsoft.node.capturefusion.so
 vendor/lib/camera/components/com.arcsoft.node.frontcapturebokeh.so
 vendor/lib/camera/components/com.arcsoft.node.frontrealtimebokeh.so
-vendor/lib/camera/components/com.arcsoft.node.hdrchecker.so
 vendor/lib/camera/components/com.arcsoft.node.hdr.so
+vendor/lib/camera/components/com.arcsoft.node.hdrchecker.so
 vendor/lib/camera/components/com.arcsoft.node.realtimebokeh.so
 vendor/lib/camera/components/com.arcsoft.node.skinbeautifier.so
 vendor/lib/camera/components/com.arcsoft.node.smoothtransition.so
@@ -91,8 +97,8 @@ vendor/lib/camera/components/com.qti.node.swregistration.so
 vendor/lib/camera/components/com.qti.node.xiaomigenderage.so
 vendor/lib/camera/components/com.qti.stats.aec.so
 vendor/lib/camera/components/com.qti.stats.aecwrapper.so
-vendor/lib/camera/components/com.qti.stats.afd.so
 vendor/lib/camera/components/com.qti.stats.af.so
+vendor/lib/camera/components/com.qti.stats.afd.so
 vendor/lib/camera/components/com.qti.stats.asd.so
 vendor/lib/camera/components/com.qti.stats.awb.so
 vendor/lib/camera/components/com.qti.stats.awbwrapper.so
@@ -102,14 +108,10 @@ vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so
 vendor/lib/camera/components/com.vidhance.node.eis.so
 vendor/lib/camera/components/com.xiaomi.node.mifragment.so
 vendor/lib/camera/components/com.xiaomi.node.misegment.so
-vendor/lib/camera/components/etc/GpuKernelRepo.pb
-vendor/lib/camera/components/etc/model_back.dlc
-vendor/lib/camera/components/etc/model_front.dlc
-vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml
-vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
-vendor/lib/camera/components/etc/morpho_lowlight4.0.xml
 vendor/lib/camera/com.qti.sensor.imx363.so
 vendor/lib/camera/com.qti.sensor.imx576.so
+vendor/lib/camera/com.qti.sensor.ov02a10.so
+vendor/lib/camera/com.qti.sensor.s5k3m3.so
 vendor/lib/camera/com.qti.sensormodule.imx576.bin
 vendor/lib/camera/com.qti.sensormodule.ov02a10.bin
 vendor/lib/camera/com.qti.sensormodule.perseus_imx363.bin
@@ -117,8 +119,6 @@ vendor/lib/camera/com.qti.sensormodule.perseus_imx363_st.bin
 vendor/lib/camera/com.qti.sensormodule.perseus_liteon_imx363.bin
 vendor/lib/camera/com.qti.sensormodule.perseus_liteon_s5k3m3sn03.bin
 vendor/lib/camera/com.qti.sensormodule.perseus_s5k3m3sn03.bin
-vendor/lib/camera/com.qti.sensor.ov02a10.so
-vendor/lib/camera/com.qti.sensor.s5k3m3.so
 vendor/lib/camera/com.qti.tuned.default.bin
 vendor/lib/camera/com.qti.tuned.liteon_imx363.bin
 vendor/lib/camera/com.qti.tuned.liteon_s5k3m3.bin
@@ -133,19 +133,28 @@ vendor/lib/camera/fdconfigvideo.bin
 vendor/lib/camera/fdconfigvideolite.bin
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
+vendor/lib/libFaceGrade.so
+vendor/lib/libHalSuperSensorServer.so
+vendor/lib/libSNPE.so;DISABLE_CHECKELF
+vendor/lib/libSuperSensor.so
+vendor/lib/libSuperSensorCPU.so
+vendor/lib/libVDClearShot.so
+vendor/lib/libXMFD_AgeGender.so
+vendor/lib/lib_denoiser3.so
 vendor/lib/libarcsoft_beautyshot.so
 vendor/lib/libarcsoft_dualcam_image_optical_zoom.so
 vendor/lib/libarcsoft_dualcam_optical_zoom_control.so
+vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib/libarcsoft_dualcam_refocus_front.so
 vendor/lib/libarcsoft_dualcam_refocus_rear_t.so
 vendor/lib/libarcsoft_dualcam_refocus_rear_w.so
-vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib/libarcsoft_dualcam_video_optical_zoom.so
 vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/lib/libarcsoft_low_light_hdr.so
-vendor/lib/libarcsoft_portrait_lighting_c.so
 vendor/lib/libarcsoft_portrait_lighting.so
+vendor/lib/libarcsoft_portrait_lighting_c.so
 vendor/lib/libarcsoft_supernight.so
+vendor/lib/libc++_shared.so
 vendor/lib/libcamera_dirty.so
 vendor/lib/libcamera_scene.so
 vendor/lib/libcamxfdalgov7.so
@@ -153,28 +162,19 @@ vendor/lib/libcamxfdengine.so
 vendor/lib/libcamxstatscore.so
 vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libcom.qti.chinodeutils.so
-vendor/lib/libc++_shared.so
-vendor/lib/libFaceGrade.so
-vendor/lib/libHalSuperSensorServer.so
 vendor/lib/libmisegment_front_845.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmpbase.so
-vendor/lib/libSNPE.so;DISABLE_CHECKELF
-vendor/lib/libSuperSensor.so
-vendor/lib/libSuperSensorCPU.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libsymphony-cpu.so
 vendor/lib/libsymphonypower.so
 vendor/lib/libtonemapalgo.so
-vendor/lib/libVDClearShot.so
 vendor/lib/libvidhance.so
-vendor/lib/libXMFD_AgeGender.so
-vendor/lib/lib_denoiser3.so
 
 # Camera firmware
-vendor/firmware/bu64748gwz.prog
 vendor/firmware/CAMERA_ICP.elf
+vendor/firmware/bu64748gwz.prog
 
 # Camera OIS firmware
 vendor/firmware/perseus_ois.coeff
@@ -185,8 +185,8 @@ vendor/firmware/perseus_ois_st.coeff
 vendor/firmware/perseus_ois_st.prog
 
 # Display configs
-vendor/etc/sdr_config.cfg
 vendor/etc/hdr_config.cfg
+vendor/etc/sdr_config.cfg
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.sdm845.so;FIX_SONAME
@@ -199,13 +199,13 @@ vendor/bin/glgps
 vendor/bin/gps.cer
 vendor/bin/ignss_2_0
 vendor/bin/lhd
+vendor/etc/SensorHub.patch
 vendor/etc/gps.conf
 vendor/etc/gpsconfig.xml
 vendor/etc/lhd.conf
-vendor/etc/SensorHub.patch
-vendor/lib64/android.hardware.gnss@2.0-impl-xiaomi.so
 vendor/lib64/hw/flp.brcm.so;FIX_SONAME
 vendor/lib64/hw/gps.brcm.so;FIX_SONAME
+vendor/lib64/android.hardware.gnss@2.0-impl-xiaomi.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libgps.utils.so
 
